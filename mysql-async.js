@@ -16161,7 +16161,7 @@ var ConnectionConfig = __webpack_require__(9);
 
 
 function getConfigFromConnectionString() {
-  const connectionString = GetConvar('mysql_connection_string', 'mysql://root@localhost/fivem');
+  const connectionString = GetConvar('mysql_connection_string', 'mysql://root@localhost/es_extended');
   let cfg = {};
 
   if (/(?:database|initial\scatalog)=(?:(.*?);|(.*))/gi.test(connectionString)) {
